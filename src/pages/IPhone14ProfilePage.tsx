@@ -37,6 +37,13 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
     navigate("/iphone-14-menu-page");
   }, [navigate]);
 
+  const openOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(true);
+  }, []);
+
+  const closeOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(false);
+  }, [])
 
   return (
     <div className={styles.iphone14ProfilePage}>
@@ -50,7 +57,12 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
       <img className={styles.iphone14ProfilePageChild1} alt="" src="/rectangle-4.svg" onClick={onRectangle4Click} />
       <div className={styles.login}>Login</div>
       <div className={styles.signUp}>Sign Up</div>
-      <div className={styles.continueAsGuest}>Continue as Guest</div><StateClosed stateClosedStateClosed="/state--closed.svg" stateClosedTop="76px" stateClosedLeft="210px" stateClosedWidth="170px" stateClosedCursor="pointer" />
+      <div className={styles.continueAsGuest}>Continue as Guest</div><img
+          className={styles.interfaceSettingMenu1ButtIcon}
+          alt=""
+          src="/interfacesettingmenu1buttonparallelhorizontallinesmenunavigationthreehamburger1.svg"
+          onClick={openOpenOverlay}
+        />
       <img className={styles.interfaceFileClipboardTextIcon} alt="" src="/interfacefileclipboardtexteditionformtaskchecklisteditclipboard.svg" onClick={onInterfaceFileClipboardTextIconClick} />
     </div>);
 };

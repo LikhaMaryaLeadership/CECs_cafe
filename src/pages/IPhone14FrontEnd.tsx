@@ -6,7 +6,7 @@ const IPhone14FrontEnd: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onRectangle2Click = useCallback(() => {
-    navigate("/iphone-14-login-page");
+    navigate("/");
   }, [navigate]);
 
   const onRectangle3Click = useCallback(() => {

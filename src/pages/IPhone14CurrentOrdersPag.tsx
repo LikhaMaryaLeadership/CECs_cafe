@@ -33,6 +33,14 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
     navigate("/iphone-14-menu-page");
   }, [navigate]);
 
+  const openOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(true);
+  }, []);
+
+  const closeOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(false);
+  }, []);
+
 
   return (
     <div className={styles.iphone14CurrentOrdersPag}>
@@ -49,7 +57,12 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
         <span className={styles.locationLegacyWest}>Location: Legacy West</span>
         <span className={styles.locationLegacyWest}>Placed at: 12:23 pm</span>
         <span className={styles.locationLegacyWest}>Ready by: 12:30 pm</span>
-      </p>
+      </p><img
+          className={styles.interfaceSettingMenu1ButtIcon}
+          alt=""
+          src="/interfacesettingmenu1buttonparallelhorizontallinesmenunavigationthreehamburger1.svg"
+          onClick={openOpenOverlay}
+        />
       <Button className={styles.requestMoreTime} sx={{ width: 198 }} variant="text" color="primary">Request more time</Button>
       <img className={styles.interfaceFileClipboardTextIcon} alt="" src="/interfacefileclipboardtexteditionformtaskchecklisteditclipboard.svg" onClick={onInterfaceFileClipboardTextIconClick} />
     </div>);

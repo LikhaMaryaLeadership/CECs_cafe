@@ -33,6 +33,13 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
     navigate("/iphone-14-profile-page");
   }, [navigate]);
 
+  const openOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(true);
+  }, []);
+
+  const closeOpenOverlay = useCallback(() => {
+    setOpenOverlayOpen(false);
+  }, []);
 
   return (
     <div className={styles.iphone14MenuPage}>
@@ -44,7 +51,13 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
       <img className={styles.rectangleIcon} alt="" src="/rectangle-4.svg" onClick={onRectangle3Click} />
       <Button className={styles.cappuccino} sx={{ width: 101 }} variant="text" color="primary">Cappuccino</Button>
       <div className={styles.hotDrinks}>Hot Drinks</div>
-      <div className={styles.icedDrinks}>Iced Drinks</div><StateClosed stateClosedStateClosed="/state--closed.svg" stateClosedTop="76px" stateClosedLeft="210px" stateClosedWidth="170px" stateClosedCursor="pointer" />
+      <div className={styles.icedDrinks}>Iced Drinks</div><img
+          className={styles.interfaceSettingMenu1ButtIcon}
+          alt=""
+          src="/interfacesettingmenu1buttonparallelhorizontallinesmenunavigationthreehamburger1.svg"
+          onClick={openOpenOverlay}
+        />
+        
       <div className={styles.menu}>Menu</div>
       <Button className={styles.interfaceAdd2RemoveBoldC} sx={{ width: 14 }} variant="text" name="Cappuccino" color="primary" startIcon={<Icon>send_sharp</Icon>} />
       <Button className={styles.interfaceAdd2RemoveBoldC1} sx={{ width: 14 }} variant="text" name="Iced Latte" color="primary" startIcon={<Icon>send_sharp</Icon>} />
