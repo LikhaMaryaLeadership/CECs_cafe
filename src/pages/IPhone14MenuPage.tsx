@@ -1,9 +1,9 @@
 import { FunctionComponent, useState, useCallback } from 'react';
 import {Button, Icon} from '@mui/material';
-import OpenOverlay from "../components/OpenOverlay";
+//import OpenOverlay from "../components/OpenOverlay";
 import PortalPopup from "../components/PortalPopup";
 import {useNavigate} from "react-router-dom";
-import C$32:367$ from "F$32:367$";
+//import C$32:367$ from "F$32:367$";
 import styles from './IPhone14MenuPage.module.css';
 const IPhone14MenuPage:FunctionComponent = () => {
 const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
