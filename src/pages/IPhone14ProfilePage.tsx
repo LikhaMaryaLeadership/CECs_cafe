@@ -1,8 +1,8 @@
 import { FunctionComponent, useState, useCallback } from 'react';
-import OpenOverlay from "../components/OpenOverlay";
+//import OpenOverlay from "../components/OpenOverlay";
 import PortalPopup from "../components/PortalPopup";
 import {useNavigate} from "react-router-dom";
-import C$32:367$ from "F$32:367$";
+//import C$32:367$ from "F$32:367$";
 import styles from './IPhone14ProfilePage.module.css';
 const IPhone14ProfilePage:FunctionComponent = () => {
 const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
