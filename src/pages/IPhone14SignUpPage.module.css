@@ -1,0 +1,120 @@
+.iphone14SignUpPageChild,
+.iphone14SignUpPageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14SignUpPageItem {
+  top: 758px;
+  height: 86px;
+}
+.interfaceHome2DoorEntrancIcon,
+.interfaceSettingMenu1ButtIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+}
+.interfaceSettingMenu1ButtIcon {
+  top: 80px;
+  left: 355px;
+  width: 21px;
+  height: 21px;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 784px;
+  left: 128px;
+  width: 31px;
+  height: 29px;
+  overflow: hidden;
+}
+.interfaceUserProfileFocusIcon {
+  top: 785px;
+  left: 328px;
+  width: 28px;
+}
+.signUp {
+  position: absolute;
+  top: 207px;
+  left: 6px;
+  display: inline-block;
+  width: 145px;
+}
+.frameTextfield,
+.iphone14SignUpPageInner {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 435px;
+  left: 32px;
+}
+.frameTextfield {
+  top: 500px;
+}
+.iphone14SignUpPageChild1,
+.iphone14SignUpPageChild2,
+.iphone14SignUpPageChild3 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 305px;
+  left: 32px;
+}
+.iphone14SignUpPageChild2,
+.iphone14SignUpPageChild3 {
+  top: 244px;
+}
+.iphone14SignUpPageChild3 {
+  top: 370px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.signUp1,
+.vectorParent {
+  position: absolute;
+  top: 6px;
+  left: 98px;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 575px;
+  left: 15px;
+  width: 341px;
+  height: 43px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  top: 783px;
+  left: 225px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.iphone14SignUpPage {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}

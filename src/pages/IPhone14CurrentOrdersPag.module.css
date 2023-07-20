@@ -1,0 +1,112 @@
+.iphone14CurrentOrdersPagChild,
+.iphone14CurrentOrdersPagItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14CurrentOrdersPagItem {
+  top: 758px;
+  height: 86px;
+}
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 784px;
+  left: 128px;
+  width: 31px;
+  height: 29px;
+  overflow: hidden;
+}
+.interfaceUserProfileFocusIcon {
+  top: 785px;
+  left: 328px;
+  width: 28px;
+  cursor: pointer;
+}
+.iphone14CurrentOrdersPagInner,
+.rectangleIcon {
+  position: absolute;
+  top: 142px;
+  left: 20px;
+  border-radius: var(--br-3xs);
+  width: 360px;
+  height: 42px;
+  cursor: pointer;
+}
+.rectangleIcon {
+  top: 269px;
+  left: 17px;
+  width: 190px;
+  height: 38px;
+}
+.orderPlacedOn,
+.orders {
+  position: absolute;
+  top: 55px;
+  left: 64px;
+  display: inline-block;
+  width: 262px;
+}
+.orderPlacedOn {
+  margin: 0;
+  top: 148px;
+  left: 14px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  width: 371px;
+}
+.locationLegacyWest {
+  display: block;
+}
+.locationLegacyWestContainer {
+  margin: 0;
+  position: absolute;
+  top: 193px;
+  left: 20px;
+  font-size: 16px;
+  text-align: left;
+  display: inline-block;
+  width: 249px;
+}
+.requestMoreTime {
+  position: absolute;
+  top: 279px;
+  left: 12px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  height: 3.32%;
+  width: 7.18%;
+  top: 92.77%;
+  right: 35.13%;
+  bottom: 3.91%;
+  left: 57.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.iphone14CurrentOrdersPag {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}

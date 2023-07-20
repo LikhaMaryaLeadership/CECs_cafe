@@ -1,0 +1,183 @@
+.iphone14MenuPageChild,
+.iphone14MenuPageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14MenuPageItem {
+  top: 758px;
+  height: 86px;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.foodDrinksTeaCupHerbalCoIcon {
+  top: 784px;
+  left: 128px;
+  height: 29px;
+}
+.iphone14MenuPageInner,
+.rectangleIcon {
+  position: absolute;
+  top: 125px;
+  left: 28px;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.rectangleIcon {
+  top: 542px;
+  left: 24px;
+}
+.cappuccino {
+  position: absolute;
+  top: 186px;
+  left: 26px;
+}
+.hotDrinks,
+.icedDrinks,
+.menu {
+  position: absolute;
+  top: 133px;
+  left: 118px;
+  display: inline-block;
+  width: 145px;
+}
+.icedDrinks,
+.menu {
+  top: 549px;
+  left: 70px;
+  width: 249px;
+}
+.menu {
+  top: 45px;
+  left: 61px;
+  font-size: var(--font-size-13xl);
+  width: 262px;
+}
+.interfaceAdd2RemoveBoldC,
+.interfaceAdd2RemoveBoldC1 {
+  position: absolute;
+  top: 185px;
+  left: 129px;
+}
+.interfaceAdd2RemoveBoldC1 {
+  top: 584px;
+}
+.interfaceAdd2RemoveBoldC2 {
+  position: absolute;
+  height: 1.66%;
+  width: 3.59%;
+  top: 69.91%;
+  right: 14.62%;
+  bottom: 28.44%;
+  left: 81.79%;
+}
+.interfaceAdd2RemoveBoldC3 {
+  position: absolute;
+  top: 185px;
+  left: 319px;
+}
+.interfaceAdd2RemoveBoldC4 {
+  position: absolute;
+  height: 1.66%;
+  width: 3.59%;
+  top: 43.48%;
+  right: 66.15%;
+  bottom: 54.86%;
+  left: 30.26%;
+}
+.image8Icon {
+  position: absolute;
+  top: 213px;
+  left: 28px;
+  border-radius: var(--br-3xs);
+  width: 136px;
+  height: 136px;
+  object-fit: cover;
+}
+.frapuccino {
+  position: absolute;
+  top: 581px;
+  left: 214px;
+}
+.espresso,
+.icedLatte,
+.latte {
+  position: absolute;
+  top: 585px;
+  left: 22px;
+}
+.espresso,
+.latte {
+  top: 187px;
+  left: 232px;
+}
+.latte {
+  top: 361px;
+  left: 34px;
+}
+.image13Icon,
+.image14Icon {
+  position: absolute;
+  top: 614px;
+  left: 24px;
+  border-radius: var(--br-3xs);
+  width: 137px;
+  height: 137px;
+  object-fit: cover;
+}
+.image14Icon {
+  top: 613px;
+  left: 214px;
+  width: 136px;
+  height: 138px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  top: 783px;
+  left: 225px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.image15Icon {
+  position: absolute;
+  top: 213px;
+  left: 232px;
+  border-radius: var(--br-3xs);
+  width: 122px;
+  height: 136px;
+  object-fit: cover;
+}
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 782px;
+  left: 322px;
+  width: 28px;
+  height: 29px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.iphone14MenuPage {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}

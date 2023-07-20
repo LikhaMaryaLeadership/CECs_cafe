@@ -1,0 +1,97 @@
+.iphone14ProfilePageChild,
+.iphone14ProfilePageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14ProfilePageItem {
+  top: 758px;
+  height: 86px;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.foodDrinksTeaCupHerbalCoIcon {
+  top: 784px;
+  left: 128px;
+  height: 29px;
+}
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 785px;
+  left: 328px;
+  width: 28px;
+  height: 29px;
+  overflow: hidden;
+}
+.iphone14ProfilePageChild1,
+.iphone14ProfilePageInner,
+.rectangleIcon {
+  position: absolute;
+  top: 176px;
+  left: 31px;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.iphone14ProfilePageChild1,
+.rectangleIcon {
+  top: 283px;
+}
+.iphone14ProfilePageChild1 {
+  top: 390px;
+  left: 34px;
+}
+.continueAsGuest,
+.login,
+.signUp {
+  position: absolute;
+  top: 182px;
+  left: 129px;
+  display: inline-block;
+  width: 145px;
+}
+.continueAsGuest,
+.signUp {
+  top: 289px;
+}
+.continueAsGuest {
+  top: 397px;
+  left: 80px;
+  width: 249px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  height: 3.32%;
+  width: 7.18%;
+  top: 92.77%;
+  right: 35.13%;
+  bottom: 3.91%;
+  left: 57.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.iphone14ProfilePage {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}

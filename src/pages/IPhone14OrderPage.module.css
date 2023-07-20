@@ -1,0 +1,143 @@
+.iphone14OrderPageChild,
+.iphone14OrderPageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14OrderPageItem {
+  top: 758px;
+  height: 86px;
+}
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 784px;
+  left: 128px;
+  cursor: pointer;
+}
+.interfaceUserProfileFocusIcon {
+  top: 785px;
+  left: 328px;
+  width: 28px;
+  height: 29px;
+  overflow: hidden;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.previousOrder,
+.quickOrder {
+  position: absolute;
+  top: 6px;
+  left: 98px;
+}
+.previousOrder {
+  top: 51px;
+  left: 219px;
+  display: inline-block;
+  width: 145px;
+}
+.vectorParent {
+  position: absolute;
+  top: 365px;
+  left: 28px;
+  width: 364px;
+  height: 64px;
+  font-size: 11px;
+}
+.vectorGroup {
+  position: absolute;
+  top: 625px;
+  left: 25px;
+  width: 341px;
+  height: 43px;
+}
+.xxx {
+  margin: 0;
+  position: absolute;
+  top: 37px;
+  left: 249px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 130px;
+}
+.image3Icon,
+.image5Icon {
+  position: absolute;
+  top: 445px;
+  left: 25px;
+  border-radius: var(--br-3xs);
+  width: 343px;
+  height: 164px;
+  object-fit: cover;
+}
+.image5Icon {
+  top: 148px;
+  left: 28px;
+  width: 341px;
+  height: 199px;
+}
+.groupIcon {
+  position: absolute;
+  height: 97.7%;
+  width: 76.28%;
+  top: 1.15%;
+  right: 11.86%;
+  bottom: 1.15%;
+  left: 11.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.interfaceFileClipboardText {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.32%;
+  width: 7.18%;
+  top: 92.77%;
+  right: 35.13%;
+  bottom: 3.91%;
+  left: 57.69%;
+  overflow: hidden;
+}
+.interfaceSettingMenu1ButtIcon {
+  position: absolute;
+  top: 76px;
+  left: 358px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+.iphone14OrderPage {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}

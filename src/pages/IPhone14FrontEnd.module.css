@@ -1,0 +1,95 @@
+.iphone14FrontEndChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.interfaceSettingMenu1ButtIcon {
+  position: absolute;
+  top: 85px;
+  left: 361px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+.iphone14FrontEndItem {
+  position: absolute;
+  top: 758px;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 86px;
+}
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 782px;
+  left: 122px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.interfaceUserProfileFocusIcon {
+  top: 781px;
+  left: 328px;
+  height: 29px;
+}
+.iphone14FrontEndChild1,
+.iphone14FrontEndInner,
+.rectangleIcon {
+  position: absolute;
+  top: 176px;
+  left: 31px;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.iphone14FrontEndChild1,
+.rectangleIcon {
+  top: 283px;
+}
+.iphone14FrontEndChild1 {
+  top: 390px;
+  left: 34px;
+}
+.continueAsGuest,
+.login,
+.signUp {
+  position: absolute;
+  top: 182px;
+  left: 129px;
+}
+.continueAsGuest,
+.signUp {
+  top: 289px;
+}
+.continueAsGuest {
+  top: 397px;
+  left: 80px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  top: 783px;
+  left: 225px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.iphone14FrontEnd {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+}

@@ -1,0 +1,9 @@
+.openOverlay {
+  position: relative;
+  background-color: transparent;
+  width: 246px;
+  height: 214px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,115 @@
+.iphone14CartPageChild,
+.iphone14CartPageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blanchedalmond);
+  width: 390px;
+  height: 112px;
+}
+.iphone14CartPageItem {
+  top: 758px;
+  height: 86px;
+}
+.interfaceHome2DoorEntrancIcon {
+  position: absolute;
+  top: 781px;
+  left: 34px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.interfaceSettingMenu1ButtIcon {
+  position: absolute;
+  top: 80px;
+  left: 355px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+.foodDrinksTeaCupHerbalCoIcon,
+.interfaceUserProfileFocusIcon {
+  position: absolute;
+  top: 784px;
+  left: 128px;
+  width: 31px;
+  height: 29px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.interfaceUserProfileFocusIcon {
+  top: 785px;
+  left: 328px;
+  width: 28px;
+}
+.iphone14CartPageChild1,
+.iphone14CartPageInner,
+.rectangleIcon {
+  position: absolute;
+  top: 176px;
+  left: 31px;
+  border-radius: var(--br-3xs);
+  width: 341px;
+  height: 43px;
+  cursor: pointer;
+}
+.iphone14CartPageChild1,
+.rectangleIcon {
+  top: 283px;
+}
+.iphone14CartPageChild1 {
+  top: 390px;
+  left: 34px;
+}
+.cart,
+.continueAsGuest,
+.login,
+.signUp {
+  position: absolute;
+  top: 182px;
+  left: 129px;
+  display: inline-block;
+  width: 145px;
+}
+.cart,
+.continueAsGuest,
+.signUp {
+  top: 289px;
+}
+.cart,
+.continueAsGuest {
+  top: 397px;
+  left: 80px;
+  width: 249px;
+}
+.cart {
+  top: 49px;
+  left: 61px;
+  font-size: var(--font-size-13xl);
+  width: 262px;
+}
+.interfaceFileClipboardTextIcon {
+  position: absolute;
+  height: 3.32%;
+  width: 7.18%;
+  top: 92.77%;
+  right: 35.13%;
+  bottom: 3.91%;
+  left: 57.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.iphone14CartPage {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-inter);
+}
