@@ -1,9 +1,9 @@
 import { FunctionComponent, useState, useCallback } from 'react';
 import {Button} from '@mui/material';
-import OpenOverlay from "../components/OpenOverlay";
+//import OpenOverlay from "../components/OpenOverlay";
 import PortalPopup from "../components/PortalPopup";
 import {useNavigate} from "react-router-dom";
-import C$32:367$ from "F$32:367$";
+//import C$32:367$ from "F$32:367$";
 import styles from './IPhone14CurrentOrdersPag.module.css';
 const IPhone14CurrentOrdersPag:FunctionComponent = () => {
 const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
@@ -49,7 +49,7 @@ const [isOpenOverlayOpen, setOpenOverlayOpen] = useState(false);
         <span className={styles.locationLegacyWest}>Location: Legacy West</span>
         <span className={styles.locationLegacyWest}>Placed at: 12:23 pm</span>
         <span className={styles.locationLegacyWest}>Ready by: 12:30 pm</span>
-      </p><StateClosed stateClosedStateClosed="/state--closed.svg" stateClosedTop="76px" stateClosedLeft="210px" stateClosedWidth="170px" stateClosedCursor="pointer" />
+      </p>
       <Button className={styles.requestMoreTime} sx={{ width: 198 }} variant="text" color="primary">Request more time</Button>
       <img className={styles.interfaceFileClipboardTextIcon} alt="" src="/interfacefileclipboardtexteditionformtaskchecklisteditclipboard.svg" onClick={onInterfaceFileClipboardTextIconClick} />
     </div>);
